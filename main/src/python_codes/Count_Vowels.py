@@ -8,7 +8,7 @@ input_string = "hello_world"   # Example input
 
 def vowels_count(input_string):  
     vowel_count = 0
-    for letter in input:       
+    for letter in input_string:       
         if letter.lower() in vowels:   #Checks letter with Case-insensitive comparison 
             vowel_count = vowel_count + 1  # Adds to count
     return vowel_count
